@@ -48,3 +48,25 @@ The system processes uploaded X-ray images through a 6-stage enhancement pipelin
 6.**Contrast Enhancement**
 ->Uses CLAHE (Adaptive Histogram Equalization)
 ->Improves brightness and contrast
+
+🧠 Model Used
+U-Net Architecture
+Encoder: ResNet18
+Library: segmentation_models_pytorch
+
+
+
+📊 **Evaluation Metrics**
+
+The system evaluates output quality using:
+
+**PSNR (Peak Signal-to-Noise Ratio)**
+  Measures noise reduction
+  Higher value = better quality
+  
+**SSIM (Structural Similarity Index)**
+  Measures structural similarity
+  Higher value = better preservation
+  
+**Quality Grade**
+  EXCELLENT / NOMINAL / ACCEPTABLE
