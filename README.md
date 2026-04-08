@@ -70,3 +70,15 @@ The system evaluates output quality using:
   
 **Quality Grade**
   EXCELLENT / NOMINAL / ACCEPTABLE
+
+💻 **User Interface**
+
+Built using Streamlit, the application provides:
+
+📤 Upload X-ray image (JPG, PNG, JPEG, WebP) 
+
+🖼️ Display original vs enhanced image
+
+📊 Show PSNR & SSIM metrics
+
+📥 Download enhanced image
